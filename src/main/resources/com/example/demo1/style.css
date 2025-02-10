@@ -1,0 +1,80 @@
+/* 🌟 Style général du GridPane */
+/* 🌟 Style général des boutons */
+.button {
+    -fx-font-size: 14px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-border-width: 1px;
+    -fx-border-color: transparent;
+}
+
+/* 🌟 Style du bouton Submit (Valider) */
+.submit-button {
+    -fx-background-color: #28a745; /* Vert */
+    -fx-text-fill: white;
+}
+
+.submit-button:hover {
+    -fx-background-color: #218838;
+}
+
+/* 🌟 Style du bouton Annuler */
+.cancel-button {
+    -fx-background-color: #dc3545; /* Rouge */
+    -fx-text-fill: white;
+}
+
+.cancel-button:hover {
+    -fx-background-color: #c82333;
+}
+
+.grid-pane {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-padding: 15px;
+    -fx-background-color: #f4f4f4;
+    -fx-hgap: 15px; /* Espacement horizontal entre les colonnes */
+    -fx-vgap: 10px; /* Espacement vertical entre les lignes */
+}
+
+/* 🌟 Style des cellules de la grille */
+.grid-pane Label {
+    -fx-padding: 10px;
+    -fx-border-color: gray;
+    -fx-border-width: 1px;
+    -fx-alignment: center;
+    -fx-font-size: 14px;
+}
+
+/* 🌟 Style des en-têtes */
+.header-label {
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-background-color: lightgray;
+    -fx-padding: 10px;
+    -fx-border-color: black;
+}
+
+/* 🌟 Style des champs de saisie */
+.text-field {
+    -fx-padding: 8px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-color: white;
+}
+
+/* 🌟 Style du bouton Ajouter */
+.button {
+    -fx-background-color: #28a745;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 15px;
+    -fx-border-radius: 5px;
+    -fx-border-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: #218838;
+}
